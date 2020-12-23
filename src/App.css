@@ -1,21 +1,22 @@
 body {
-  background-color: #000000;
+	background-color: #000000;
 }
 
 .grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 15px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 15px;
+	margin-top: 2rem;
 }
 
 .box {
-  width: auto;
-  height: 80px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	width: auto;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .icons {
-  font-size: 30px;
-  color: #ffffff;
+	font-size: 30px;
+	color: #ffffff;
 }
